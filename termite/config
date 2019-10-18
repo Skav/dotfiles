@@ -1,0 +1,66 @@
+#
+#   _____                   _ _       
+#  |_   _|__ _ __ _ __ ___ (_) |_ ___ 
+#    | |/ _ \ '__| '_ ` _ \| | __/ _ \
+#    | |  __/ |  | | | | | | | ||  __/
+#    |_|\___|_|  |_| |_| |_|_|\__\___|
+#     
+
+
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Hack\ Nerd\ Font 10
+scrollback_lines = 10000
+search_wrap = true
+icon_name = utilities-terminal
+geometry = 800x550
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+filter_unmatched_urls = true
+[colors]
+# you must have compton for transparency
+# special
+foreground      = #a1acbe
+foreground_bold = #a1acbe
+cursor          = #a1acbe
+background      = #0c0c0f
+
+# black
+color0  = #0c0c0f
+color8  = #707885
+
+# red
+color1  = #ab0000
+color9  = #ab0000
+
+# green
+color2  = #444e71
+color10 = #444e71
+
+# yellow
+color3  = #2b4750
+color11 = #2b4750
+
+# blue
+color4  = #446476
+color12 = #446476
+
+# magenta
+color5  = #535460
+color13 = #535460
+
+# cyan
+color6  = #ad8351
+color14 = #ad8351
+
+# white
+color7  = #a1acbe
+color15 = #a1acbe
